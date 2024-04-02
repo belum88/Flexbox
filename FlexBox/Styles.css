@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://wallpapercave.com/wp/UfPWB1C.jpg");
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: black;
+}
+
+/* Header */
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  color: red;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main */
+main {
+  padding: 20px 0;
+}
+h2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.character-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character {
+  flex: 1 1 200px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.character img {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+/* Galería */
+.gallery {
+  text-align: center;
+}
+.gallery h2 {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image {
+  flex: 0 0 200px;
+  margin: 10px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.image img:hover {
+  opacity: 0.5;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
